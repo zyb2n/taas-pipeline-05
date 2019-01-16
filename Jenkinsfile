@@ -16,7 +16,7 @@ metadata:
 spec:
   containers:
   - name: taas
-    image: kliu17/taas:taas_docker_image_2019_1_15_3
+    image: kliu17/taas:taas_docker_image_2019_1_15_4
     env:
       - name: AWS_ACCESS_KEY_ID
         valueFrom:
