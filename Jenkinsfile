@@ -47,7 +47,7 @@ spec:
             sh 'inspec version'
             sh 'bundle exec kitchen'
             sh 'aws --version'
-            sh 'aws eks update-kubeconfig --name taas'
+            sh 'aws eks update-kubeconfig --name taas --region us-east-1'
             sh 'kubectl version'
             sh 'helm init'
 	    sh 'git clone https://github.com/kliu17/taas-integration-tests /tmp/taas-integration-tests'
